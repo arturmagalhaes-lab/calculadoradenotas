@@ -13,7 +13,7 @@ function calcularMedia() {
         situação = "APROVADO"
     } else if (media>= 5){
         situação = "RECUPERAÇÃO"
-    } else {
+    } else if (media> 5){
         situacao = "REPROVADO"
     }
     
